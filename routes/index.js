@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-// Route for Tom's page
+//  Route for Tom's page
 router.get('/', function(req, res, next) {
   res.render('tom');
 });
